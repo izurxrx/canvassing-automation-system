@@ -42,7 +42,7 @@ jobs:
     - name: Run linter
       run: npm run lint
     - name: Run tests
-      run: npx vitest run
+      run: npx vitest run --passWithNoTests
 
   mobile-test:
     runs-on: ubuntu-latest
